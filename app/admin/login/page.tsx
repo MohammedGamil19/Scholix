@@ -7,7 +7,7 @@ import { LogIn, GraduationCap } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { auth } from '@/lib/firebase';
 import { useAuth } from '@/lib/AuthContext';
-import { EMERGENCY_EMAIL, EMERGENCY_PASSWORD } from '@/lib/emergencyAuth';
+import { EMERGENCY_EMAIL, EMERGENCY_PASSWORD } from '@/lib/form';
 
 export default function AdminLoginPage() {
   const router = useRouter();
